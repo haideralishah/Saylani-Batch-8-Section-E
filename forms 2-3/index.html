@@ -6,17 +6,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <style>
+        form {
+            border: 1px solid black;
+            padding: 15px;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        /* .shoaib {
+            width: 250px;
+            height: 250px;
+            border: 1px solid red;
+            display: block;
+            margin: 0 auto;
+        } */
+    </style>
+
 </head>
 
 <body>
 
+    <!-- <img class="shoaib" src="images/shoaibakhtar.jpg" alt="shoabi akhtar celeberating his wicket." /> -->
+
     <form action="" method="post">
         <label>
-            User Name: <input type="text" name="username" />
+            User Name: <input type="text" name="username" required />
         </label>
         <br /><br />
         <label>
-            Password: <input type="password" name="password" />
+            Password: <input type="password" name="password" required />
+        </label>
+        <br /><br />
+
+        Gender:
+        <label>
+            Male <input type="radio" name="gender" value="male" />
+        </label>
+        <label>
+            Female<input type="radio" name="gender" value="female" checked />
+        </label>
+        <br /><br />
+
+
+        Subject:
+        <label>
+            Maths <input type="checkbox" name="subjects" value="maths" checked />
+        </label>
+        <label>
+            Computer Science <input type="checkbox" name="subjects" value="CS" checked />
+        </label>
+        <label>
+            Physics <input type="checkbox" name="subjects" value="physics" />
+        </label>
+
+        <br /><br />
+
+        <label for="date-of-birth">
+            Date of Birth:
+        </label>
+
+        <p><strong>Note:</strong> Your date of birht is only for our system and will never be publish to public.
+        </p>
+
+        <input type="date" name="dob" id="date-of-birth" />
+        <br /><br />
+
+
+        <label>
+            Feedback: <textarea name="feedback" cols="30" rows="2"></textarea>
+        </label>
+        <br /><br />
+
+        <label>
+            Upload your CV: <input type="file" name="CV" />
         </label>
 
         <br /><br />
