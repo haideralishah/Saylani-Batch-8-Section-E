@@ -5,10 +5,21 @@
 <input type="checkbox" />
 <input type="file" />
 <textarea></textarea>
+<select>
+	<option></option
+</select>
+<input type="image" />
+<button></button>
 
 
-
+<fieldset></fieldset>
+<legend></legend>
+<input type="hidden" />
 <input type="date" />
+<input type="email" />
+<input type="url" />
+<input type="search" />
+<input type="color" />
 
 
 

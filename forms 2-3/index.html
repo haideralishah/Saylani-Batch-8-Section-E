@@ -21,6 +21,11 @@
             display: block;
             margin: 0 auto;
         } */
+
+        .submit-btn {
+            width: 15px;
+            height: 15px;
+        }
     </style>
 
 </head>
@@ -30,13 +35,31 @@
     <!-- <img class="shoaib" src="images/shoaibakhtar.jpg" alt="shoabi akhtar celeberating his wicket." /> -->
 
     <form action="" method="post">
-        <label>
-            User Name: <input type="text" name="username" required />
-        </label>
-        <br /><br />
-        <label>
-            Password: <input type="password" name="password" required />
-        </label>
+        <fieldset>
+            <legend>Basic Info:</legend>
+            <label>
+                User Name: <input type="text" name="username" required placeholder="alex bhatti" />
+            </label>
+            <br /><br />
+            <label>
+                Password: <input type="password" name="password" required />
+            </label>
+            <br /><br />
+            <label>
+                Email: <input type="email" name="email" />
+            </label>
+
+            <br /><br />
+            <label>
+                Profile URL: <input type="url" name="profile-url" />
+            </label>
+            <br /><br />
+            <label>
+                Search: <input type="search" name="search" />
+            </label>
+
+        </fieldset>
+
         <br /><br />
 
         Gender:
@@ -74,18 +97,38 @@
 
 
         <label>
-            Feedback: <textarea name="feedback" cols="30" rows="2"></textarea>
+            Feedback: <textarea placeholder="Let us know your experience." name="feedback" cols="30"
+                rows="2"></textarea>
         </label>
         <br /><br />
 
         <label>
             Upload your CV: <input type="file" name="CV" />
         </label>
+        <br /><br />
+
+        <select name="country-code">
+            <option value="">Please select a country code.</option>
+            <option value="+92">Pakistan</option>
+            <option value="+91">India</option>
+            <option value="+1" selected>US</option>
+        </select>
 
         <br /><br />
-        <input type="submit" value="Signup" />
-    </form>
 
+        <input type="hidden" name="page-info" value="contact" />
+        <br /><br />
+        <input type="color" />
+        <br /><br />
+        0<input type="range" min="0" max="100" />100
+        <br /><br />
+        <!-- <input type="submit" value="Signup" /> -->
+        <!-- <input type="image" src="images/register.png" class="submit-btn" /> -->
+        <button>
+            <img src="images/register.png" alt="submit button" class="submit-btn" /> Register here
+        </button>
+    </form>
+    <button>Start the Game</button>
 
 </body>
 
