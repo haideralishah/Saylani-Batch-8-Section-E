@@ -1,4 +1,214 @@
-h1{
-    color:red;
+/* h1{
+    color:green;
     background-color: bisque;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Universal Selector */
+/* *{
+    background-color: bisque;
+    color:brown;
+} */
+/* Type Selector */
+/* h1, h2{
+    border: 1px dotted brown;
+    padding:15px;
+}
+
+h2{
+    text-align: center;
+} */
+
+
+/* Class Selector */
+/* .special{
+    color:blueviolet;
+}
+h1.special{
+    color: orangered;
+}
+p.special{
+    background-color:azure;
+} */
+
+
+/* ID Selector */
+/* #subject{
+    background-color: aquamarine;
+} */
+
+
+
+
+
+
+/* Child Selector */
+/* div>h2{
+   color: green;
+}
+div>p{
+    color:red;
+}
+
+a{
+    text-decoration: none;
+}
+div>a{
+    color:red;
+}
+div>ul>li>a{
+    color:blue;
+}
+li>a{
+    color:skyblue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+    color:red !important;
+}
+
+h1.special-potato{
+    color:blueviolet;
+}
+
+h1{
+    color:blue;
+}
+
+
+*{
+    color:green;
+} */
+
+
+
+
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+h1 {
+    font-family: "Courier New", monospace;
+}
+
+i {
+    color: green;
+}
+i {
+    color: red;
+}
+
+
+
+p>b {
+    color: blue !important;
+}
+
+p>b {
+    color: violet;
+}
+
+b {
+    color: pink;
+}
+
+#intro {
+    font-size: 100%;
+}
+p {
+    font-size: 75%;
 }
