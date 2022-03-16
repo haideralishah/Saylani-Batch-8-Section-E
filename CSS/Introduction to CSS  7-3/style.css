@@ -178,7 +178,7 @@ h1{
 
 
 
-* {
+/* * {
     font-family: Arial, Verdana, sans-serif;
 }
 h1 {
@@ -211,4 +211,125 @@ b {
 }
 p {
     font-size: 75%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* a{
+    text-decoration: none;
+} */
+
+/* div>ul>li>a{
+    color:red;
+} */
+
+/* 
+div,a
+div>a
+div a
+div+a
+div~a
+*/
+
+/* div a{
+    color: red;
+} */
+
+/* Adjacent Sibling */
+/* h1 + p {
+    background-color: beige;
+    color:brown;    
+} */
+
+/* General Sibling */
+/* h1 ~ p{
+    border: 1px solid red;
+    padding: 15px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    padding: 20px;
+    border: 1px solid red;
 }
+.page {
+    /* border: 1px solid #665544; */
+    background-color: #efefef;
+    border: inherit;
+    padding: inherit;
+}
+h1{
+    color:brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

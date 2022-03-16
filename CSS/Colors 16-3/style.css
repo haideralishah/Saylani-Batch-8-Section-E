@@ -1,0 +1,29 @@
+
+/* Predefined names 147 */
+/* body{
+    color: brown;
+    background-color: cadetblue;
+} */
+
+/* RGB Values */
+/* body{
+    color: rgb(153, 138, 138);
+    background-color: rgb(95, 158, 160);
+} */
+
+/* Hex Code */
+/*body{
+     color: #a52a2a;
+    background-color: #5f9ea0;
+} */
+
+
+
+
+
+body{
+    color: hsl(61, 70%, 26%);
+}
+
+
+
