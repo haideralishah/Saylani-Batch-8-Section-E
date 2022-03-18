@@ -21,9 +21,37 @@
 
 
 
-body{
+/* body{
     color: hsl(61, 70%, 26%);
+} */
+
+
+
+
+
+
+
+
+
+
+div{
+    background-color: crimson;
+    padding: 20px;
 }
+h1{
+    background-color: khaki;
+}
+p{
+    /* position: relative;
+    top:-40px; */
+
+    /* background-color: rgba(95, 158, 160,0.7); */
+    background-color: hsla(182, 25%, 50%, 0.7);
+    /* color:rgba(0,0,0,0.5); */
+    padding: inherit;
+    /* opacity: 0.5; */
+}
+
 
 
 
