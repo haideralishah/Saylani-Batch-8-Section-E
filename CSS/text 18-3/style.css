@@ -1,11 +1,11 @@
-
+/* 
 *{
     font-family: Arial, Helvetica, verdana, sans-serif;
 }
 
 .coding-text{
     font-family: 'Courier New', Courier, monospace;
-}
+} */
 
 
 
@@ -49,7 +49,7 @@
 
 
 
-
+/* 
 
 body{
     font-size: 30px;
@@ -57,6 +57,89 @@ body{
 
 .doub-size{
     font-size: 1.5em;
+} */
+
+
+/* .bold-text{
+    font-weight: bold; 
+}
+h1{
+    font-weight: normal;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @font-face {
+    font-family: "AlexBrush";
+    src: url("fonts/alex-brush/AlexBrush-Regular.ttf");
+}
+
+*{
+    font-family: AlexBrush;   
+}
+body{
+    background-color: pink;
+    color:red;
+    border: 2px dotted red;
+    padding: 15px;
+} */
+
+
+
+
+
+h1{
+    /* text-transform: uppercase;
+    text-decoration: overline; */
+    /* text-indent: -400px; */
+}
+h2{
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+.special{
+    /* font-style: italic;
+    text-transform: capitalize;
+    text-indent: 40px; */
+    /* line-height: 1.4em; */
+
+    /* letter-spacing: 1em; */
+    /* word-spacing: 2em; */
+}
+a{
+    text-decoration: none;
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+
+p{
+    text-align: justify;
+}
+
+
+.special:first-letter{
+    font-size: 40px;
+    color:green;
+    font-family: monospace;
+}
+.doub-size:first-line{
+    text-decoration: underline;
 }
 
 
@@ -67,3 +150,12 @@ body{
 
 
 
+
+
+
+
+
+
+/* h1{
+    text-shadow: 2px 2px 5px #008000;
+} */
