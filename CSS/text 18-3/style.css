@@ -143,10 +143,42 @@ p{
 }
 
 
+/* a:visited{
+    color:red;
+}
+a:link{
+    color: orange;
+} */
 
 
 
+h1:hover{
+    text-decoration: underline;
+    background-color: aliceblue;
+}
+input:focus{
+    background-color: aquamarine;
+    color:brown;
+}
+button:active{
+    background-color: cornflowerblue;
+    text-shadow: 5px 5px 15px red;
+}
 
+
+
+h2[title="hello"]{
+    background-color: pink;
+}
+h2[title^="C"]{
+    background-color: yellow;
+}
+h2[title*="ty"]{
+    color: green;
+}
+h2[title$="o"]{
+    color:red;
+}
 
 
 
